@@ -1,0 +1,38 @@
+GitHub - Creating new organization and add members
+
+Step 1  - + sign menu > "New Organization"
+
+Step 2  - Set the Organization Name, add a Billing Email, click "Create Organization"
+
+Step 3  - Search for your collaborators to invite them, collaborators check email and accept invitation
+
+Step 4  - Organization creator makes collaborators as Administrators
+
+Step 5  - Go to Organization page on GitHub, click "Create New Repository"
+
+Step 6  - Give repository a name, make it Public, and check "Initialize with Readme"
+
+Step 7  - All members open up repository and then click "Fork" button
+
+Step 8  - Open command line, navigate to your local folder where you want the project to live using cd
+
+Step 9  - Copy your GitHub URL and type in the following to setup your local clone
+
+	git clone [https://github.com/[user-name]/[project-name].git
+
+Step 10 - Navigate inside local project folder using cd
+
+Step 11 - Check remote using following command (should see two lines returned, fetch and push)
+	git remote -v
+
+Step 12 - On GitHub.com, click the link to go your Organization page, then copy the Clone/Download URL
+
+Step 13 - In command line, type the following to setup your upstream
+
+	git remote add upstream [https://github.com/[organization-name]/[project-name].git
+
+Step 14 - Check remote using following command (should see four lines returned, make sure username is origin and organization-name is upstream
+
+	git remote -v
+
+Step 15 - 
