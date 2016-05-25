@@ -35,4 +35,24 @@ Step 14 - Check remote using following command (should see four lines returned, 
 
 	git remote -v
 
-Step 15 - 
+Step 15 - git status (check that the new file has been created). 
+
+Step 16 - Add file with "git add -A".
+	git status again (see that your branch is up-to-date)
+
+Step 17 - "git commit -m 'added index.html'". git status again. You'll see that your branch is ahead.
+
+Step 18 - "git push origin master" - will push the changes to the fork (NOT to the upstream)
+
+Step 19 - Go to GitHub page (with your name - your fork). 
+	We pushed some code up and we want to tell people. Make a pull request. 
+	It will notify everyone in the organization that you made a pull request and will show the other members what code is new, what code has changed. 
+	You can add comments to the pull request. 
+	It will check the ability to merge automatially.
+
+Step 20 - Somebody needs to merge it in. Not the person that made the request.
+	Merge pull request. Confirm merge.
+
+Step 21 - Not everyone has the most up-to-date information. So go to console and type "git pull upstream master" to get the 
+
+Step 22 - "git push origin master". "git status"
